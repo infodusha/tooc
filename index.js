@@ -1,4 +1,4 @@
-const sym = Symbol('took');
+const sym = Symbol('tooc');
 
 const freeze = (obj) => {
     return Object.keys(obj).forEach(prop =>
@@ -23,7 +23,7 @@ const clone = (obj) => {
     return Array.isArray(obj) ? (copy.length = obj.length) && Array.from(copy) : copy;
 };
 
-function took(_data = {}, _options = {}) {
+function tooc(_data = {}, _options = {}) {
 
     if(!_data instanceof Object)
         throw new Error('Data is not object');
@@ -67,7 +67,7 @@ function took(_data = {}, _options = {}) {
         else if(_source instanceof Object)
             source = _source;
         else
-            throw new Error('Source is not took instance or object');
+            throw new Error('Source is not tooc instance or object');
 
         return equals(data, source) && equals(source, data);
     }
@@ -119,4 +119,4 @@ function took(_data = {}, _options = {}) {
 
 }
 
-module.exports = took;
+module.exports = tooc;

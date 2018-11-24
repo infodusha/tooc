@@ -1,6 +1,6 @@
-const took = require('../');
+const tooc = require('../');
 
-const obj = new took({
+const obj = new tooc({
     field1: {
         field12: null,
         arr: [1, 2, {
