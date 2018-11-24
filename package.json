@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "infodusha",
+  "author": "infodusha <infodusha@ya.ru> (https://infodusha.ru)",
+  "homepage": "https://github.com/infodusha/tooc#readme",
+  "bugs": {
+    "url": "https://github.com/infodusha/tooc/issues",
+    "email": "infodusha@ya.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infodusha/tooc.git"
+  },
   "license": "ISC"
 }
